@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "init": "node ./init.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "yargs": "^16.1.1"
+    "yargs": "16.1.1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "vang-ui": "./src/index.js"
   }
 }
